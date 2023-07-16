@@ -1,0 +1,98 @@
+.menu
+    box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.20), -2px 0px 4px 0px rgba(69, 79, 126, 0.02)
+    display: none
+    width: 320px
+    height: 1024px
+    left: 0px
+    position: absolute
+    z-index: 2
+    background: $white-color
+    &_active
+        display: block
+    &__search
+        position: relative
+        top: 23px
+        left: 256px
+        display: flex
+        align-items: center
+        justify-content: center
+    &__elements
+        width: 222px
+        height: 420px
+        position: relative
+        top: 53px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+    &__element
+        display: flex
+        align-items: center
+        height: 32px
+        margin-left: 24px
+        font-family: 'TT Lakes'
+        font-weight: 500
+        font-size: 16px
+        line-height: 24px
+        letter-spacing: -0.2px
+        color: $black-grey-color
+    &__element:hover
+        color: $dark-grey-color
+        cursor: pointer
+        &_active
+            color: $dark-grey-color
+            margin-left: 0
+    &__blue-line-before-element
+        border-radius: 0 90px 90px 0
+        height: 32px
+        width: 4px
+        background: $blue-color
+        margin-right: 20px
+    &__navigation
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        position: relative
+        top: 268px
+        left: 24px
+        width: 196px
+        height: 124px
+        p
+            font-family: 'TT Lakes'
+            font-weight: 500
+            font-size: 16px
+            line-height: 24px
+            letter-spacing: -0.2px
+            color: $black-grey-color
+        h4
+            font-family: 'TT Lakes'
+            font-weight: 700
+            font-size: 24px
+            line-height: 32px
+            letter-spacing: -0.6px
+            color: $black-grey-color
+    &__nav-butons
+        width: 152px
+        height: 40px
+        display: flex
+        justify-content: space-between
+        div
+            display: flex
+            justify-content: center
+            align-items: center
+    &__language
+        position: relative
+        top: 328px
+        left: 24px
+        width: 87px
+        height: 24px
+        display: flex
+        justify-content: space-between
+        p
+            font-family: 'TT Lakes'
+            font-weight: 500
+            font-size: 16px
+            line-height: 24px
+            letter-spacing: -0.2px
+            color: $black-grey-color
+        p:hover
+            color: $dark-grey-color

@@ -1,2 +1,11 @@
-export const mult = (a, b) => a * b;
-export const sum = async(a, b) => a + b;
+export const menu = document.querySelector(".menu")
+export const burger = document.querySelector(".head__burger")
+export const shadow = document.querySelector(".head__shadow")
+export const navigation = document.querySelector(".head__navigation")
+export const burgerLines = burger.children[0].children
+export const head = document.querySelector(".head")
+export const body = document.querySelector("body")
+export const swiperReadMore = document.querySelector(".swiper-readmore")
+export const swiperContainer = document.querySelector(".swiper-container")
+export const swiperWrapper = document.querySelector(".swiper-wrapper")
+export const swiperContainerService = document.querySelector(".services__slider-wrapper")
