@@ -4,7 +4,7 @@
     position: relative
     .brands-title
         height: 80px
-        width: 288px
+        width: 256px
         margin: 0 auto
         display: flex
         justify-content: center
@@ -41,6 +41,7 @@
             .swiper-slide:nth-child(11)
                 display: none
         .swiper-pagination
+            background: red
             .swiper-pagination-bullet
                 background: $light-grey2
                 width: 12px
@@ -79,8 +80,11 @@
     .brands-title-background
         .brands-title
             height: 56px
-            width: 380px
-            margin: auto 0 auto 24px
+            width: 720px
+            margin: auto
+            h3
+                text-align: left
+                width: 720px
     .swiper
         .swiper-container
             height: 266px
@@ -113,8 +117,11 @@
     .brands-title-background
         .brands-title
             height: 56px
-            width: 380px
-            margin: auto 0 auto 24px
+            width: 1072px
+            margin: auto
+            h3
+                width: 1072px
+                text-align: left
     .swiper
         .swiper-container
             height: 266px
@@ -139,3 +146,10 @@
                 display: flex
                 margin-bottom: 34px
 
+@media (min-width: 1440px)
+    .brands-title-background
+        .brands-title
+            margin: 0 0 0 auto
+    .swiper
+        .swiper-wrapper
+            margin: 24px -20px

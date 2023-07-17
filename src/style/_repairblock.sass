@@ -19,3 +19,49 @@
             margin: 16px 0 64px 0
         button
             margin-left: 168px
+
+@media (min-width: 768px) and (max-width: 1119px)
+    .swiper-repair
+        &__container
+            height: 282px !important
+            width: 720px
+            margin: auto
+        &__wrapper
+            width: 720px
+            height: 160px
+            display: flex
+            flex-wrap: wrap
+            margin-top: 24px
+            margin-bottom: 24px
+        &__slide
+            width: 224px
+            margin-right: 24px
+            button
+                margin-left: 155px
+        &__slide:nth-child(4)
+            display: none !important
+        &__slide:nth-child(5)
+            display: none !important
+        &__slide:nth-child(6)
+            display: none !important
+        &__slide:nth-child(7)
+            display: none !important
+        &__slide:nth-child(8)
+            display: none !important
+        &__slide:nth-child(9)
+            display: none !important
+
+@media (min-width: 1120px)
+    .swiper-repair
+        &__container
+            height: 282px !important
+        &__slide:nth-child(5)
+            display: none !important
+        &__slide:nth-child(6)
+            display: none !important
+        &__slide:nth-child(7)
+            display: none !important
+        &__slide:nth-child(8)
+            display: none !important
+        &__slide:nth-child(9)
+            display: none !important
