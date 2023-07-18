@@ -83,6 +83,7 @@ body
     display: flex
     align-items: center
     justify-content: space-around
+    cursor: pointer
     &__text
         width: 67px
         height: 24px
@@ -96,6 +97,8 @@ body
         letter-spacing: -0.15px
         text-transform: uppercase
         margin-left: 12px
+.button-order:hover
+    filter: grayscale(20%)
 
 
 .flexdisplay
@@ -103,13 +106,12 @@ body
 .hidden
     visibility: hidden
 .displaynone
-    display: none
+    display: none !important
 
 
 .absolute-burger
-    position: absolute
     top: 0.1px
-    left: 10px
+    margin-left: 2px
 .more
     display: flex
     justify-content: flex-start
@@ -126,6 +128,10 @@ body
         line-height: 24px
         letter-spacing: -0.2px
         color: #1B1C21
+
+@media (min-width: 768px) and (max-width: 1119px)
+    .absolute-burger
+        width: 680px !important
 
 @media (min-width: 768px) and (max-width: 1119px)
     .container

@@ -10,43 +10,88 @@
 </head>
 <body>
 
+    <div class="menu-wrapper">
+        <div class="menu">
+            <img class="menu__img" src="./img/Group.svg" alt="logo">
+            <div class="menu__search pink-circle">
+                <img src="./img/lupa.svg" alt="search-lupa">
+            </div>
+            <div class="menu__elements">
+                <div class="menu__element menu__element_active">
+                    <div class="menu__blue-line-before-element"></div>
+                    Ремонт техники
+                </div>
+                <div class="menu__element">Услуги и сервисы</div>
+                <div class="menu__element">Корпоративным клиентам</div>
+                <div class="menu__element">Продавцам техники</div>
+                <div class="menu__element">Партнерам</div>
+                <div class="menu__element">Производителям</div>
+                <div class="menu__element">Наши сервисные центры</div>
+                <div class="menu__element">Контакты</div>
+            </div>
+            <div class="menu__navigation">
+                <div class="menu__nav-butons">
+                    <div class="pink-circle callbuton">
+                        <img src="./img/phone.svg" alt="phone">
+                    </div>
+                    <div class="pink-circle bellbuton">
+                        <img src="./img/message.svg" alt="message">
+                    </div>
+                    <div class="pink-circle">
+                        <img src="./img/person.svg" alt="person">
+                    </div>
+                </div>
+                <p>mail@cps.com</p>
+                <h4>8 800 890 8900</h4>
+            </div>
+            <div class="menu__language">
+                <p>RU</p>
+                <p>EN</p>
+                <p>CH</p>
+            </div>
+        </div>
 
-    <div class="menu">
-        <div class="menu__search pink-circle">
-            <img src="./img/lupa.svg" alt="search-lupa">
-        </div>
-        <div class="menu__elements">
-            <div class="menu__element menu__element_active">
-                <div class="menu__blue-line-before-element"></div>
-                Ремонт техники
+
+        <div class="call">
+            <div class="call__cross pink-circle">
+                <div></div>
+                <div></div>
             </div>
-            <div class="menu__element">Услуги и сервисы</div>
-            <div class="menu__element">Корпоративным клиентам</div>
-            <div class="menu__element">Продавцам техники</div>
-            <div class="menu__element">Партнерам</div>
-            <div class="menu__element">Производителям</div>
-            <div class="menu__element">Наши сервисные центры</div>
-            <div class="menu__element">Контакты</div>
-        </div>
-        <div class="menu__navigation">
-            <div class="menu__nav-butons">
-                <div class="pink-circle">
-                    <img src="./img/phone.svg" alt="phone">
+            <div class="call__header">
+                <div class="call__blue-line">
                 </div>
-                <div class="pink-circle">
-                    <img src="./img/message.svg" alt="message">
-                </div>
-                <div class="pink-circle">
-                    <img src="./img/person.svg" alt="person">
-                </div>
+                Обратная связь
             </div>
-            <p>mail@cps.com</p>
-            <h4>8 800 890 8900</h4>
+            <div class="call__inputs">
+                <input type="text" placeholder="Имя">
+                <input type="text" placeholder="Телефон">
+                <input type="text" placeholder="Электронная почта">
+                <input type="text" placeholder="Сообщение">
+            </div>
+            <p class="call__text">Нажимая “отправить”, вы даете согласие на <span>обработку персональных данных</span> и соглашаетесь с нашей <span>политикой конфиденциальности</span></p>
+            <div class="call__button button-order">
+                <p class="button-order__text">Отправить</p>
+                <img src="./img/goside.svg" alt="arrow">
+            </div>
         </div>
-        <div class="menu__language">
-            <p>RU</p>
-            <p>EN</p>
-            <p>CH</p>
+
+
+        <div class="bell">
+            <div class="bell__cross pink-circle">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="bell__header">
+                <div class="bell__blue-line">
+                </div>
+                Обратная связь
+            </div>
+            <input type="text" placeholder="Телефон">
+            <p class="bell__text">Нажимая “отправить”, вы даете согласие на <span>обработку персональных данных</span> и соглашаетесь с нашей <span>политикой конфиденциальности</span></p>
+            <div class="bell__button button-order">
+                <p class="button-order__text">Отправить</p>
+                <img src="./img/goside.svg" alt="arrow">
+            </div>
         </div>
     </div>
 
@@ -134,10 +179,11 @@
                 </div>
                 <div class="services__content">
                     <div class="services__text-and-more">
-                        <p class="services__text big-text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя. </p>
+                        <p class="services__text big-text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя. <span class="services-span">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</span> <span class="services__text-after">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</span> <span class="services-span2">, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</span> </p>
                         <div class="services__read-more more">
                             <div class="more__img"> <img src="./img/more.svg" alt="read more"> </div>
-                            <p class="more__text">Читать далее</p>
+                            <p class="services__hiden more__text">Скрыть</p>
+                            <p class="services__readmorebuton more__text">Читать далее</p>
                         </div>
                     </div>
                     <img class="services__photo" src="./img/gps-logo-photo.jpg" alt="cps logo photo">
@@ -319,7 +365,7 @@
 
                 <div class="swiper-pagination"></div>
                 
-                <div class="swiper-readmore more">
+                <div class="swiper-readmore repair-swiper-readmore more">
                     <div class="more__img"> <img src="./img/more.svg" alt="read more"> </div>
                     <p class="swiper-readmore__text-after">Скрыть</p>
                     <p class="more__text">Показать все</p>

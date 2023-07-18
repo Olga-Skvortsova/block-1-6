@@ -3,6 +3,10 @@
     width: 100%
     position: relative
     border-bottom: 1px solid $light-blue-color
+
+.section1-background2
+    height: 450px !important
+
 .services
     height: 498px
     padding-top: 24px
@@ -48,6 +52,9 @@
         font-weight: 500
         line-height: 24px
         letter-spacing: -0.2px
+        cursor: pointer
+    &__swiperslide:hover
+        color: $black-grey-color
     &__swiperslide-active
         padding: 6px 16px
         background: $white-color
@@ -62,24 +69,49 @@
         justify-content: space-between
         align-items: center
     &__text-and-more
+        content: "Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя."
         width: 100%
         height: 130px
         display: flex
         flex-direction: column
         justify-content: space-between
         align-items: center
+        transition: all 0.5s ease
     &__text
+        transition: all 0.5s ease
         display: block
         width: 288px
         height: 90px
         font-size: 14px
         line-height: 18px
+        span
+            display: none
     &__read-more
         width: 288px
+        cursor: pointer
+        transition: all 0.5s ease
     &__photo
         width: 320px
         height: 176px
+    &__hiden
+        display: none
+        transition: all 0.5s ease
+    &__text-after
+        display: none
 
+.serices-read-more-block
+    height: 588px
+.serices-read-more-text
+    height: 204px !important
+    margin-bottom: 50px
+.serices-text
+    margin-bottom: 134px
+.span-available
+    display: block !important
+.services-span2
+    display: none
+.serices-read-more2
+    margin-top: 75px
 
 @media (min-width: 768px) and (max-width: 1119px)
     .section1-background
@@ -95,9 +127,8 @@
         &__text
             width: 312px
             height: 160px
-        &__text::after
-            white-space: pre
-            content: "\0a \0a Мы успешно работаем с 1992 года и \0a заслужили репутацию надежного партнера."
+        &__text-after
+            display: block !important
 
 @media (min-width: 1120px)
     .section1-background
