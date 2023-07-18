@@ -12468,7 +12468,7 @@ module.exports = styleTagTransform;
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/index.js";
+module.exports = __webpack_require__.p + "index.js";
 
 /***/ }),
 
@@ -12512,7 +12512,7 @@ module.exports = __webpack_require__.p + "fonts/TTLakes-Medium.ttf";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/index.sass";
+module.exports = __webpack_require__.p + "index.sass";
 
 /***/ }),
 
@@ -22920,4 +22920,4 @@ function readMoreAvailable2() {
 
 /******/ })()
 ;
-//# sourceMappingURL=main.b318b6a82ad739a2d2ca.js.map
+//# sourceMappingURL=main.733eec0ee7f311b728e6.js.map
